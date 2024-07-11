@@ -1,5 +1,6 @@
 { pkgs }: {
 	deps = [
+   pkgs.postgresql
    pkgs.python311Packages.jupyter-server-terminals
    pkgs.python311Packages.jupyterlab-git
    pkgs.python311Packages.jupyter-client
