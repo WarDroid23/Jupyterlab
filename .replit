@@ -11,3 +11,6 @@ externalPort = 80
 [deployment]
 build = ["sh", "-c", "xcom-LordRusty23"]
 deploymentTarget = "cloudrun"
+
+[objectStorage]
+defaultBucketID = "replit-objstore-300bf3fd-a736-4c5b-8deb-14c74bac1d1d"
